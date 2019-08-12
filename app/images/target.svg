@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.713" height="65.349" viewBox="0 0 77.713 65.349">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#485ef4" stop-opacity="0.102"/>
+      <stop offset="0.03" stop-color="#48e7f4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.482"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.827" y1="0.142" x2="0.177" y2="0.835" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0054e1"/>
+      <stop offset="1" stop-color="#0095fd"/>
+    </linearGradient>
+  </defs>
+  <g id="ICON" transform="translate(-0.73 -7.055)">
+    <path id="Path_637" data-name="Path 637" d="M58.768,42.148l48,10.794,14.257,53.638-77.713.918Z" transform="translate(-42.58 -35.094)" fill="url(#linear-gradient)"/>
+    <path id="Path_20" data-name="Path 20" d="M44.6,20A24.6,24.6,0,1,0,69.19,44.6,24.595,24.595,0,0,0,44.6,20Zm0,42.163A17.568,17.568,0,1,1,62.163,44.6,17.568,17.568,0,0,1,44.6,62.163Z" transform="translate(-1.946 -1.946)" fill="none"/>
+    <path id="Path_21" data-name="Path 21" d="M47,36A11,11,0,1,0,58,47,11,11,0,0,0,47,36Zm0,14.667A3.667,3.667,0,1,1,50.667,47,3.667,3.667,0,0,1,47,50.667Z" transform="translate(-4.001 -4)" fill="url(#linear-gradient-2)"/>
+    <g id="Ellipse_98" data-name="Ellipse 98" transform="translate(24 24)" fill="none" stroke="#000945" stroke-width="1">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_99" data-name="Ellipse 99" cx="4" cy="4" r="4" transform="translate(39 39)" fill="#000945"/>
+    <g id="Ellipse_100" data-name="Ellipse 100" transform="translate(15 15)" fill="none" stroke="#000945" stroke-width="1">
+      <circle cx="28" cy="28" r="28" stroke="none"/>
+      <circle cx="28" cy="28" r="27.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139.525" height="74.198" viewBox="0 0 139.525 74.198">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#485ef4" stop-opacity="0.102"/>
+      <stop offset="0.03" stop-color="#48e7f4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.482"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#004df2"/>
+      <stop offset="1" stop-color="#0096ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_116" data-name="Group 116" transform="translate(132.859 21.647)">
+    <path id="Path_633" data-name="Path 633" d="M77.347,62.741,104.477,34.5l72.77,73.95H37.721Z" transform="translate(-170.58 -56.145)" fill="url(#linear-gradient)"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(-119 11.949)">
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="9.469" cy="9.469" rx="9.469" ry="9.469" transform="translate(0 21.163)" fill="#000945" stroke="#000945" stroke-width="1"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="9.469" cy="9.469" rx="9.469" ry="9.469" transform="translate(35.531 21.163)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_23" data-name="Path 23" d="M65.038,31.449A16.189,16.189,0,0,0,48.817,47.567h-1.5a17.73,17.73,0,0,1,34.9-4.3l2.729-5.3,1.332.687-3.6,7a.75.75,0,0,1-1.01.324l-7-3.606.687-1.333,5.473,2.819A16.291,16.291,0,0,0,65.038,31.449Z" transform="translate(-38.598 -29.949)" fill="#000945"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="9.469" cy="9.469" rx="9.469" ry="9.469" transform="translate(71.062 21.163)" fill="#000945"/>
+      <path id="Path_24" data-name="Path 24" d="M22.532,31.45a16.147,16.147,0,0,0-9.844,3.3l-.9-1.194A17.615,17.615,0,0,1,22.532,29.95,17.8,17.8,0,0,1,39.714,43.273l2.729-5.3,1.333.687-3.606,7a.75.75,0,0,1-1.01.324l-7-3.606.686-1.334,5.473,2.819A16.287,16.287,0,0,0,22.532,31.45Z" transform="translate(39.44 -29.949)" fill="#000945"/>
+    </g>
+  </g>
+</svg>

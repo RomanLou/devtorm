@@ -1,0 +1,130 @@
+.section {
+  padding: 100px;
+
+  &__img-wrapper {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+
+    &:before {
+      height: 170%;
+      width: 170%;
+      content: '';
+      background: url("../images/blob_purple.svg");
+      background-size: contain;
+      position: absolute;
+      top: -120px;
+      left: -70px;
+      z-index: -1;
+    }
+
+    &--left {
+      &:before {
+        height: 170%;
+        width: 170%;
+        content: '';
+        background: url("../images/blob_blue.svg");
+        background-size: contain;
+        position: absolute;
+        bottom: -150px;
+        right: -80px;
+        z-index: -1;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+
+    &--purple {
+      width: 80%;
+      box-shadow: 10px -13px 99px 0px rgba(128,117,255,0.81);
+    }
+
+    &--blue {
+      width: 80%;
+      box-shadow: 10px -13px 99px 0px rgba(117,170,255,0.80);
+    }
+  }
+
+  &__name {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    margin: 30px 0;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 34px;
+    color:#91949D;
+  }
+
+  .button {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+
+  &__subheader{
+    font-size: 40px;
+    margin: 100px auto 80px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .brands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__gallery {
+    position: relative;
+    margin-top: 150px;
+    margin-left: -30%;
+
+
+    &-item {
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &-photo {
+      @include pos($r: 0, $b: 0, $z: 1);
+      @include size(60%, 500px);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      clip-path: polygon(6% 0, 92% 6%, 100% 100%, 0% 100%);
+    }
+  }
+
+  .clip {
+    position: relative;
+
+    &:before {
+      @include size(107%, 108%);
+      @include pos($l: -15%, $b: 0);
+      content: '';
+      background: url(../images/cases_bg.jpg) no-repeat top center;
+      background-size: 100% 99.9%; 
+      z-index: 0;
+    }
+  }
+}
+
+section.no-padding{
+	padding-top: 30px;
+}
+
+section.wave {
+	padding-bottom: 300px;
+	background-image: url(../images/wave_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 100%;
+	background-size: contain;
+}

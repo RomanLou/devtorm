@@ -1,0 +1,27 @@
+.comment {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+  }
+
+  &__text {
+    line-height: 27px;
+    margin-bottom: 20px;
+    width: 85%;
+
+  }
+
+  &__author,
+  &__position {
+    font-weight: 700;
+  }
+
+  &__avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+}

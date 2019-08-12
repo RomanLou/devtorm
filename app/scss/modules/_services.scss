@@ -1,0 +1,40 @@
+.services {
+  padding-top: 270px;
+
+  &__icon {
+    @include size(400px, 15px);
+    margin: 20px 0 55px -15px;
+    color: #000945;
+  }
+
+  &__header {
+    font-size: 3.75rem;
+    color: #000945;
+  }
+
+  &__list {
+    display: flex;
+    margin-bottom: 120px;
+
+    &-item {
+      width: 100%;
+      margin: 0 20px;
+    }
+
+    &-img {
+      height: 85px;
+    }
+
+    &-name {
+      font-size: 1.875rem;
+      color: #000945;
+      margin: 35px 0 25px;
+    }
+
+    &-text {
+      font-size: 1rem;
+      color: #91949D;
+      line-height: 26px;
+    }
+  }
+}

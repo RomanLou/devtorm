@@ -1,0 +1,148 @@
+.header {
+  background: #f5f9fe ;
+
+  .container {
+    position: relative;
+    z-index: 3;
+  }
+
+  &::before {
+    @include pos($l: 0, $t: 0, $z: 2);
+    @include size(65%, 100%);
+    content: '';
+    background: url('../images/header-bg-2.png') no-repeat top center;
+    background-size: 100% 100%;
+    animation: darkbulb 2s ease 1 forwards;
+  }
+
+  &::after {
+    @include pos($l: 0, $t: 0, $z: 1);
+    @include size(0);
+    content: '';
+    background: #f5f9fe url('../images/header-bg-1.jpg') no-repeat top center;
+    background-size: 100% 105%;
+    animation: lightbulb 1.8s ease-in-out 1 forwards;
+  }
+
+  @keyframes darkbulb {
+    from {
+      @include size(0);
+    }
+    50% {
+      @include size(40%, 50%);
+    }
+    to {
+      @include size(65%, 90%);
+    }
+  }
+
+  @keyframes lightbulb {
+    from {
+      @include size(0);
+    }
+    to {
+      @include size(112%, 86%);
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    padding: 40px 70px 0 30px;
+  }
+
+  &__menu {
+    display: flex;
+
+    &-item {
+      margin-right: 75px;
+    }
+    &-link {
+      color: #fff;
+    }
+  }
+
+  &__left {
+    padding-top: 200px;
+    //background: #0859E3;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    &:after{
+      @include size(350px);
+      @include pos($l: -150px, $t: -350px, $z: 0);
+      content: '';
+      background: linear-gradient(to bottom, rgba(102,234,255,1) 0%,rgba(255,255,255,1) 100%);
+      display: block;
+      position: absolute;
+      border-radius: 50%;
+      transform: rotate(-20deg);
+      animation: logobulb 1.5s ease 1 forwards;
+    }
+
+    @keyframes logobulb {
+      from {
+        top: -350px;
+        left: -150px;
+      }
+      to {
+        top: -150px;
+        left: -85px;
+      }
+    }
+
+    &-logo {
+      height: 170px;
+      width: 90px;
+      transform: translateY(18px);
+    }
+
+    &-name {
+      font-size: 120px;
+    }
+
+    &-wrapper {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+    }
+
+    &-creed {
+      font-size: 36px;
+      margin-bottom: 70px;
+    }
+
+    &-text {
+      font-size: 20px;
+      text-align: left;
+      line-height: 34px;
+    }
+  }
+
+  &__right {
+    padding-top: 150px;
+  }
+
+  &__logo {
+    height: 40px;
+    width: 25px;
+    margin-right: 10px;
+  }
+
+  &__logo-name {
+    font-size: 30px;
+  }
+}
+
+.header-clip {
+  clip-path: polygon(15% 7%, 80% 0%, 100% 100%, 0 100%);
+  background-position-x: 90%;
+  background-size: cover;
+  height: 300px;
+  transform: translateX(-50px);
+}

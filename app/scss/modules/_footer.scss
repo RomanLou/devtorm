@@ -1,0 +1,76 @@
+.footer {
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%,rgba(9,81,224,1) 0%,rgba(7,103,233,1) 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    color: #fff; 
+
+    &:after {
+        content: '';
+        height: 700px;
+        width: 50%;
+        background: radial-gradient(ellipse at center, rgba(255,196,17,1) 0%,rgba(255,80,3,1) 100%);
+        position: absolute;
+        border-radius: 50%;
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 60%);
+    }
+
+    &__logo {
+
+        height: 55px;
+        width: 35px;
+        margin-right: 20px;
+
+        &-wrapper {
+           
+            display: flex; 
+            align-items: center;
+        }
+
+        &-name {
+            font-size: 38px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        &-name {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        &-item {
+            margin-bottom: 20px;
+        }
+
+        &-link {
+            color: #fff;
+            
+        }
+
+        .button {
+            color: #fff;
+            border-color: #fff;
+        }
+    }
+
+    &__links {
+
+        display: flex;
+        margin-top: 150px;
+
+        &-item {
+            margin-right: 45px;
+        }
+
+        &-link {
+            color: #fff;
+        }
+    }
+     
+}

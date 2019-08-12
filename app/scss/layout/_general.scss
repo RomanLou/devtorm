@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+// Main styles
+body {
+	font-family: 'Questrial', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+	min-width: 1140px;
+	color: #000945;
+}
+
+.grey {
+	background: #F5F9FE;
+}
+
+.align-right {
+	text-align: right
+}
+
+
+.button {
+	color: #000945;
+	padding: 15px 30px;
+	border: 1px solid #000945;
+	border-radius: 35px;
+	display: block;
+
+	&__dark {
+		background: #000945;
+		color: #fff;
+	}
+
+	&__light {
+		background: transparent;
+		color: #000945;
+		border: 2px solid #000945;
+	} 
+
+	&__margin-right {
+		margin-right: 15%;
+	}
+
+	&__arrow {
+		position: relative;
+
+		&:before {
+			content: '';
+			@include size (40%, 100%);
+			background: url(../images/arrow.svg) no-repeat;
+			background-position-y: center;
+			background-size: 75%;
+			position: absolute;
+			right: 0;
+			top: 0;
+			transform: translateX(70%);
+		}
+	}
+}
+
+.blob {
+	font-size: 1.875rem;
+	padding: 40px 50px;
+
+	&--yellow {
+		color: #FFD100;
+		background: url(../images/oval_yellow.svg) no-repeat;
+		background-size: contain;
+	}
+
+	&--blue {
+		color: #394AF1;
+		background: url(../images/oval_blue.svg) no-repeat;
+		background-size: contain;
+	}
+}
+
+svg {
+	fill: currentColor;
+}
+
+#wave {
+	stroke: currentColor;
+}

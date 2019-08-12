@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.654" height="73.457" viewBox="0 0 121.654 73.457">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#485ef4" stop-opacity="0.102"/>
+      <stop offset="0.03" stop-color="#48e7f4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.482"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7f6fff"/>
+      <stop offset="1" stop-color="#2d44ef"/>
+    </linearGradient>
+  </defs>
+  <g id="papers_icon" data-name="papers icon" transform="translate(-1158 -2326.543)">
+    <g id="Group_116" data-name="Group 116">
+      <path id="Path_628" data-name="Path 628" d="M3.551,24.744l75.271-9.2L113.654,89H0Z" transform="translate(1166 2311)" fill="url(#linear-gradient)"/>
+      <g id="Group_111" data-name="Group 111" transform="translate(-6)">
+        <rect id="Rectangle_148" data-name="Rectangle 148" width="82.596" height="47.198" transform="translate(1169.9 2352.44)" fill="#000945"/>
+        <g id="Rectangle_146" data-name="Rectangle 146" transform="translate(1164 2343)" fill="#fff" stroke="#000945" stroke-width="1">
+          <rect width="82.596" height="47.198" stroke="none"/>
+          <rect x="0.5" y="0.5" width="81.596" height="46.198" fill="none"/>
+        </g>
+        <rect id="Rectangle_147" data-name="Rectangle 147" width="70.797" height="35.398" transform="translate(1169.9 2348.9)" fill="url(#linear-gradient-2)"/>
+        <g id="Ellipse_97" data-name="Ellipse 97" transform="translate(1193.499 2354.8)" fill="none" stroke="#000945" stroke-width="1">
+          <circle cx="12.389" cy="12.389" r="12.389" stroke="none"/>
+          <circle cx="12.389" cy="12.389" r="11.889" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

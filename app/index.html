@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Starter">
+	<meta name="author" content="Admin">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Devtorium</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+	<link rel="stylesheet" href="css/global.min.css">
+	<!--endbuild-->
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!--sprite for changing colour svg-->
+	<svg width="0" height="0" display="none">
+		<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.454 42.485" id="logo">
+			<g transform="rotate(90 13.227 13.227)">
+			<circle cx="5.212" cy="5.212" r="5.212" transform="translate(16.031 16.031)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(8.922 19.288)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(0 19.288)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(29.654 19.288)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(38.576 19.288)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(19.288)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(19.288 8.014)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(26.979 11.597)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(11.532 11.597)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(5.929 5.02)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(33.556 5.929)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(1.564 11.535)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(37.013 11.535)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(11.535 1.498)"></circle>
+			<circle cx="1.955" cy="1.955" r="1.955" transform="translate(27.041 1.498)"></circle>
+			</g>
+		</symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 601.161 17" id="wave">
+			<path id="wave-line" d="M1 9.312s22.541 8.427 47.373 6.352S73.714 1.013 100.327 1.013s46.124 14.651 74.214 14.651S211.8 1.013 240.891 1.013s36.926 15.18 106.381 14.651c57.923 1.944 51.14-13.731 81.691-14.651 21.572-.65 32.069 14.651 86.841 14.651s65.585-13.716 84.357-14.651"
+			fill="none" stroke-linecap="round" stroke-width="2" stroke="currentColor"></path>
+		</symbol>
+	</svg>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div  style="color: #000945; display: flex; align-items: center;">
+					<svg class="header__logo"> 
+						<use xlink:href="#logo"></use>
+					</svg>
+					<span class="header__logo-name">Devtorium.</span>
+				</div>
+				<nav>
+					<ul class="header__menu">
+						<li class="header__menu-item"><a href="" class="header__menu-link">Solutions</a></li>
+						<li class="header__menu-item"><a href="" class="header__menu-link">Pricing</a></li>
+					</ul>
+				</nav>
+				<a href="" class="button button__arrow"><p>Contact us</p></a>
+			</div>
+			<div class="row">
+				<div class="header__left col-8">
+					<div class="header__left-wrapper">
+						<svg class="header__left-logo">
+							<use xlink:href="#logo"></use>
+						</svg>
+						<h1 class="header__left-name">evtorium</h1>
+					</div>
+					<h3 class="header__left-creed"> Auditorium of sales & development</h3>
+					<div class="row">
+						<div class="col-6">
+							<div class="header-clip" style="background-image: url('images/header-bg.jpg')"></div>
+						</div>
+						<div class="col-6">
+							<p class="header__left-text">Full-service development & marketing agency providing online businesses help with technology expertise, sales experience and maximizing returns of investment.</p>
+						</div>
+					</div>
+				</div>
+				<div class="header__right col-3 offset-1">
+					<form action="" class="form">
+						<h3 class="form__header">Expand your audience while enhancing your message.</h3>
+						<input class="form__input" type="text" placeholder="Your Name">
+						<input class="form__input" type="text" placeholder="Your Email">
+						<input class="form__input" type="text" placeholder="Your Phone">
+						<p class="form__text">This page is protected by reCAPTCHA, and subject to the Google Privacy Policy and Terms of service.</p>
+						<button class="button__dark button__arrow">Lets Chat</button>
+						<button class="button__light">Call</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="dedicated">
+		<div class="container">
+			<p class="dedicated__info">A Dedicated Product Team, Marketing Network, and Sales Machine — All for 1 Monthly Fee</p>
+			<div class="row dedicated__row">
+				<div class="col-6">
+					<img src="images/dev.png" alt="image" style="width: 100%">
+				</div>
+				<div class="col-6 dedicated__main-part">
+					<div class="dedicated__tesis dedicated__tesis--orange">
+						<svg class="icon dedicated__icon">
+							<use xlink:href="#wave"></use>
+						</svg>
+						<h2 class="dedicated__heading">Dedicated Team</h2>
+						<p class="dedicated__text">A dedicated professional product design & development team makes it easy to create any digital product that you can imagine. </p>
+					</div>
+					<div class="dedicated__tesis dedicated__tesis--lightblue">
+						<svg class="icon dedicated__icon">
+							<use xlink:href="#wave"></use>
+						</svg>
+						<h2 class="dedicated__heading">Network Connections</h2>
+						<p class="dedicated__text">Access to deep network of media buyers, affiliates, ad networks and publishing agencies gives your product the marketing muscle to stand out in the crowd. </p>
+					</div>
+					<div class="dedicated__tesis dedicated__tesis--blue">
+						<svg class="icon dedicated__icon">
+							<use xlink:href="#wave"></use>
+						</svg>
+						<h2 class="dedicated__heading">Sales Machine</h2>
+						<p class="dedicated__text">By offering a sales machine platform to manage your efforts, we give you all the tools you need to maximize your sales.</p>
+					</div>
+				</div>
+			</div>
+			<div class="dedicated-clip" style="background-image: url('images/services-girl.jpg')"></div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="container">
+			<div>
+				<h2 class="services__header">Our Services</h2>
+				<svg class="icon services__icon">
+					<use xlink:href="#wave"></use>
+				</svg>
+			</div>
+			<ul class="services__list">
+				<li class="services__list-item">
+					<img src="images/gears.svg" alt="development" class="services__list-img">
+					<h3 class="services__list-name">Development</h3>
+					<p class="services__list-text">From design to development, we are there to provide experience and tools every single step of the way.</p>
+				</li>
+				<li class="services__list-item">
+					<img src="images/commerse.svg" alt="commerse" class="services__list-img">
+					<h3 class="services__list-name">E-commerce</h3>
+					<p class="services__list-text">Front-to-back development for your software and e-commerce endeavors. We can help you with issues such as preselling landing pages, full landing pages, billing, and much more.</p>
+				</li>
+				<li class="services__list-item">
+					<img src="images/friend.svg" alt="marketing" class="services__list-img">
+					<h3 class="services__list-name">Marketing</h3>
+					<p class="services__list-text">From advertising to media buying and comprehensive digital marketing services we can give your products necessary channels to reach your audience.</p>
+				</li>
+				<li class="services__list-item">
+					<img src="images/papers.svg" alt="sales" class="services__list-img">
+					<h3 class="services__list-name">Sales</h3>
+					<p class="services__list-text">Highly optimized sale funnels, as well as tools to manage billing, cross-sell, up-sell, and down-sell can help you to generate a consistent flow of sales.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img src="images/steps.svg" alt="Conversions">
+					<h2 class="section__name">Consistent Lead Generations & Fast Conversions</h2>
+					<p class="section__text">By offering a sales machine platform to manage your efforts, we will give you the tools you need to maximize your sales. This includes highly optimized web funnels, as well as tools to manage billing, cross-sell, up-sell, and down-sell.</p>
+					<a href="" class="button button__dark button__arrow">Learn More</a>
+					<div class="comment">
+						<p class="comment__text">“Turning visitors into paying customers is easier than you think. We’ll show you how.”</p>
+						<div class="comment__wrapper">
+							<img src="images/ava1.jpg" alt="avatar" class="comment__avatar">
+							<span class="comment__author">Jessica James</span>
+							<span class="comment__position">Head of Marketing “Refinery 29”</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="section__img-wrapper">
+						<img src="images/img-right.jpg" alt="present" class="section__img section__img--purple">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section  wave">
+		<div class="container">
+			<div class="row">
+				<div class="col-6" style="margin-top: 50px;">
+					<div class="section__img-wrapper--left">
+						<img src="images/img-left.jpg" alt="present" class="section__img section__img--blue">
+					</div>
+				</div>
+				<div class="col-6">
+					<img src="images/target.svg" alt="Targeting">
+					<h2 class="section__name">Strategized Targeting To Boost Your Sales</h2>
+					<p class="section__text">Our network extends to payment gateways, card processing companies, shipping/fulfilment companies, call centers, labs and chemists. Our end-to-end product development and marketing company benefits tremendously from this consistently-evolving network.</p>
+					<a href="" class="button button__dark button__arrow">Learn More</a>
+					<div class="comment">
+						<p class="comment__text">“We use precision-targeting in our marketing strategies. This allows us to get those customers who are on the fence about making a purchase.”</p>
+						<div class="comment__wrapper">
+							<img src="images/ava1.jpg" alt="avatar" class="comment__avatar">
+							<span class="comment__author">Oliver Evans</span>
+							<span class="comment__position">Head of Marketing “ICONIQ”</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="section__subheader">10,000+ of the world’s most successful companies, big and small, trust Devtorium for growth</h4>
+			<ul class="brands">
+				<li class="brand">
+					<img src="images/sothebys.png" alt="sothebys">
+				</li>	
+				<li class="brand">
+					<img src="images/newrelic.png" alt="newrelic">
+				</li>
+				<li class="brand">
+					<img src="images/iconiq.png" alt="iconiq">
+				</li>
+				<li class="brand">
+					<img src="images/combinator.png" alt="combinator">
+				</li>
+				<li class="brand">
+					<img src="images/gv.png" alt="gv">
+				</li>	
+			</ul>
+		</div>
+	</section>
+
+	<!--case studies-->
+	<section class="section grey no-padding">
+		<div class="container clip">
+			<h2 class="section__name">Case Studies</h2>
+			<div class="row">
+				<div class="col-6">
+					<div class="section__gallery">
+						<div class="section__gallery-item" style="background-image:url(images/gallery1.jpg)"></div>
+						<div class="section__gallery-photo" style="background-image:url(images/gallery2.jpg)"></div>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="comment align-right">
+						<p class="comment__text">“We don’t want to just help during the design stage. We want to help you determine what works in your marketing efforts, what needs to be chanted and what should be dropped.”</p>
+						<div class="comment__wrapper">
+							<span class="comment__author">Oliver Evans</span>
+							<span class="comment__position">Devtorium Head of Customer Care</span>
+						</div>
+						<a href="" class="button button__dark button__margin-right">Meet the team</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--crew-->
+	<section class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="blob blob--yellow">
+						<p class="blob__text">10K+ Orders Per Month</p>
+					</div>
+					<h2 class="section__name">Launching A Successful, Profitable Disruptor Brand</h2>
+					<p class="section__text">Our network extends to payment gateways, card processing companies, shipping/fulfilment companies, call centers, labs and chemists. Our end-to-end product development and marketing company benefits tremendously from this consistently-evolving network.</p>
+					<a href="" class="button button__dark button__arrow">See Full Results</a>
+				</div>
+				<div class="col-6">
+					<img src="images/crew1.png" alt="present" class="section__img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<img src="images/crew2.png" alt="present" class="section__img">
+				</div>
+				<div class="col-6">
+					<div class="blob blob--blue">
+						<p class="blob__text">Up to 400% More Conversions</p>
+					</div>
+					<h2 class="section__name">Increasing Organic Search Revenue</h2>
+					<p class="section__text">We don’t believe in a one-size-fits-all approach to subjects like design and marketing. We do not simply help you meet short-term sales goals. We help you to establish and execute long-term endeavors in an ever-challenging business world.</p>
+					<a href="" class="button button__dark button__arrow">See Full Results</a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!--letschat-->
+	<section class="letschat">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="letschat__right">
+						<div class="letschat__portrait-wrapper">
+							<img src="images/ava4.jpg" alt="person" class="letschat__portrait">
+							<img src="images/ava3.jpg" alt="person" class="letschat__portrait">
+							<img src="images/ava2.jpg" alt="person" class="letschat__portrait">
+						</div>
+						<div class="letschat__icon-wrapper">
+							<svg class="letschat__icon">
+								<use xlink:href="#wave"></use>
+							</svg>
+						</div>
+						<h4 class="letschat__header">Our Consulting Expertise</h4>
+						<p class="letschat__text">Want to know which marketing strategy can provide a turnkey solution for your company’s content marketing efforts?</p>	
+					</div>
+				</div>
+				<div class="col-5 offset-1">
+					<form action="" class="form">
+						<h3 class="form__header form__header--chat">
+							<span class="form__span">Let’s Chat Today</span>
+						</h3>
+						<p class="form__subheader">Tell us more about what you are looking for, and let’s start the conversation.</p>
+						<input class="form__input" type="text" placeholder="Your Name">
+						<input class="form__input" type="text" placeholder="Your Email">
+						<input class="form__input" type="text" placeholder="Your Phone">
+						<p class="form__text">This page is protected by reCAPTCHA, and subject to the Google Privacy Policy and Terms of service.</p>
+						<button class="button__dark button__arrow">Lets Chat</button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!--footer-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-5">
+					<div  class="footer__logo-wrapper">
+						<svg class="footer__logo"> 
+							<use xlink:href="#logo"></use>
+						</svg>
+						<span class="footer__logo-name">Devtorium.</span>
+					</div>
+				</div>
+				<div class="col-7">
+					<nav class="footer__nav">
+						<div class="footer__nav-wrapper">
+							<p class="footer__nav-name">Company</p>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">What we do</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Who we are</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Case Studies</a></li>
+							</ul>
+						</div>
+						<div class="footer__nav-wrapper">
+							<p class="footer__nav-name">Product</p>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Blog</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Podcast</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Event</a></li>
+							</ul>
+						</div>
+						<div class="footer__nav-wrapper">
+							<p class="footer__nav-name">Resourses</p>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Company</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Careers</a></li>
+								<li class="footer__nav-item"><a href="" class="footer__nav-link">Locations</a></li>
+							</ul>
+						</div>
+						<a href="" class="button">Contact us</a>
+					</nav>
+				</div>
+			</div>
+			<ul class="footer__links">
+				<li class="footer__links-item"><a href="" class="footer__links-link">Terms</a></li>
+				<li class="footer__links-item"><a href="" class="footer__links-link">Privacy</a></li>	
+				<li class="footer__links-item"><a href="" class="footer__links-link">Status</a></li>	
+				<li class="footer__links-item"><a href="" class="footer__links-link">Security</a></li>		
+			</ul>
+		</div>
+	</footer>
+
+	<!--build:js js/main.min.js -->
+	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/libs/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--endbuild-->
+</body>
+</html>

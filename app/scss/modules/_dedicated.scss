@@ -1,0 +1,85 @@
+.dedicated {
+  background: #F5F9FE;
+  padding: 120px 0 60px;
+  position: relative;
+  box-shadow: 0 50px 80px 0 rgba(117, 248, 255, .3);
+
+  &::after {
+    @include size(100%, 400px);
+    @include pos($l: 0, $b: -400px);
+    background: url('../images/dedicated-bg.png') no-repeat top center;
+    content: '';
+  }
+
+  .container {
+    position: relative;
+  }
+
+  &__info {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 65px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__main-part {
+    padding-left: 50px;
+  }
+
+  &__tesis {
+    margin: 30px 0;
+
+    &--orange {
+      color: #FF6C0B;
+    }
+
+    &--lightblue {
+      color: #0071F8
+    }
+
+    &--blue {
+      color: #4852F4;
+    }
+  }
+
+  &__icon {
+    @include size(100%, 40px);
+    stroke-dasharray: 10;
+    animation: dash .7s linear alternate infinite;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 0;
+    }
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+
+  &__heading {
+    font-size: 2.5rem;
+    margin: 10px 0 30px;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    color: #91949D;
+    line-height: 2rem;
+  }
+
+  &-clip {
+    @include size(675px, 390px);
+    @include pos($r: -245px, $b: -385px, $z: 1);
+    clip-path: polygon(22% 0, 78% 11%, 100% 87%, 29% 100%, 0 63%);
+
+    background-position-x: 90%;
+    background-size: cover;
+  }
+}
